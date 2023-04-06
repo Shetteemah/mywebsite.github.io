@@ -7,7 +7,7 @@ import {RiServiceLine} from 'react-icons/ri';
 import {FiFeather} from 'react-icons/fi';
 import { useState } from 'react';
 
-const nav = () => {
+const Nav = () => {
   const [activeNav, setActiveNav] = useState('#')
   return (
 	<nav>
@@ -20,4 +20,4 @@ const nav = () => {
   )
 }
 
-export default nav
+export default Nav

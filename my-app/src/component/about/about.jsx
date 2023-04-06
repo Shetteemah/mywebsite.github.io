@@ -1,6 +1,5 @@
 import React from 'react'
 import './about.css';
-import ME from '../../img/me-greyscale.jpg';
 import {AiOutlineBook} from 'react-icons/ai';
 import {FiUsers} from 'react-icons/fi';
 import {VscFolderLibrary} from 'react-icons/vsc';
@@ -13,9 +12,6 @@ const about = () => {
 
     <div className="container about__container">
       <div className="about__me">
-        <div className="about__me-image">
-          <img src={ME} alt="About Image" />
-        </div>
       </div>
       <div className="about__content">
         <div className="about__cards">
