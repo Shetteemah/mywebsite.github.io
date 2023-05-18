@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
 	margin: 0;
@@ -11,12 +12,12 @@
 }
 
 :root{
-	--color-bg: #1f1f38;
-	--color-bg-variant: #2c2c6c;
-	--color--primary: #4db5ff;
+	--color-bg: #59604D;
+	--color-bg-variant: #494F3F;
+	--color--primary: #292C23;
 	--color-primary-variant: rgba(77, 181, 255, 0.4);
 	--color-white: #fff;
-	--color-light: rgba(255, 255, 255, 0.6);
+	--color-light: rgba(181, 187, 170, 1);
 
 	--container-width-lg: 75%;
 	--container-width-md: 86%;
@@ -49,11 +50,23 @@ body{
 }
 
 h1, h2, h3, h4, h5 {
+	font-weight: 900;
+	/* font-variant: tabular-norm;
+	font-style: normal; */
+}
+h2 {
+	font-weight: 700;
+}
+h3, h4, h5 {
 	font-weight: 500;
 }
 
 h1 {
-	font-size: 2.5rem;
+	font-size: 80px;
+	line-height: 100px;
+	vertical-align: baseline;
+	letter-spacing: normal;
+	word-spacing: 0px;
 }
 
 section {
@@ -96,8 +109,8 @@ a:hover {
 }
 
 .btn:hover {
-	background: var(--color-white);
-	color: var(--color-bg);
+	background: var(--color-bg-variant);
+	color: var(--color-white);
 	border-color: transparent;
 }
 
