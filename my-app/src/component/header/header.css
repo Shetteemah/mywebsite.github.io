@@ -88,6 +88,15 @@ header {
 		height: 150vh;
 	}
 
+	.logo {
+		/* position: static; */
+		margin-top: 0rem;
+		margin-left: 0%;
+		/* height: 50%; */
+		position: absolute;
+		width: 15%;
+	}
+
 }
 
 /* ===================== MEDIA QUERIES (SMALL) MOBILE SCREENS ===================== */
@@ -98,5 +107,14 @@ header {
 
 	.scroll__down, .header__socials {
 		bottom: 1rem;
+	}
+
+	.logo {
+		/* position: static; */
+		margin-top: -6rem;
+		margin-left: 40%;
+		/* height: 50%; */
+		position: relative;
+		width: 20%;
 	}
 }

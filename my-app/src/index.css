@@ -135,6 +135,14 @@ img {
 	section {
 		margin-top: 6rem;
 	}
+
+	h1 {
+		font-size: 100px;
+		line-height: 100px;
+		vertical-align: baseline;
+		letter-spacing: normal;
+		word-spacing: 0px;
+	}
 }
 
 /* ===================== MEDIA QUERIES (MOBILE DISPLAY) ===================== */
@@ -147,4 +155,13 @@ img {
 	section > h2 {
 		margin-top: 2rem;
 	}
+
+	h1 {
+		font-size: 60px;
+		line-height: 100px;
+		vertical-align: baseline;
+		letter-spacing: normal;
+		word-spacing: 0px;
+	}
+	
 }
