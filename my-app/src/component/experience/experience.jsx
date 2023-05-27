@@ -1,9 +1,13 @@
 import React from 'react'
 import './experience.css';
-import {GrUserExpert} from 'react-icons/gr'
+import {FiUserCheck} from 'react-icons/fi'
 import {FaFigma} from 'react-icons/fa'
 import {GiBrainstorm} from 'react-icons/gi'
-// import {FaFigma} from 'react-icons/fa'
+import {DiJavascript1} from 'react-icons/di'
+import {GrReactjs} from 'react-icons/gr'
+import {TbBrandNextjs} from 'react-icons/tb'
+import {SiTailwindcss} from 'react-icons/si'
+import {RiLayout5Line} from 'react-icons/ri'
 
 const experience = () => {
   return (
@@ -12,40 +16,58 @@ const experience = () => {
       <h2>Experience</h2>
       <div className="container experience__container">
           <div className="experience__UX">
-            <h3>User Experience Design</h3>
+          <h3>User Experience Design</h3>
             <div className="experience__content">
             <article className='experience__details'>
-                <GrUserExpert/>
-                <h4>UX Research</h4>
+                <FiUserCheck class="experience__details-icon"/>
+                <div class="experience__title"><h4>UX Research</h4></div>
                 <small className='text-light'>Experienced</small>
               </article>
               <article className='experience__details'>
-                <FaFigma/>
-                <h4>Figma</h4>
+                <FaFigma class="experience__details-icon"/>
+                <div class="experience__title"><h4>Figma</h4></div>
                 <small className='text-light'>Experienced</small>
               </article>
               <article className='experience__details'>
-                <GiBrainstorm/>
-                <h4>UX Research</h4>
+                <GiBrainstorm class="experience__details-icon"/>
+                <div class="experience__title"><h4>Prototyping</h4></div>
                 <small className='text-light'>Experienced</small>
               </article>
               <article className='experience__details'>
-                <GrUserExpert/>
-                <h4>UX Research</h4>
+                <RiLayout5Line class="experience__details-icon"/>
+                <div class="experience__title"><h4>Wireframing</h4></div>
                 <small className='text-light'>Experienced</small>
               </article>
             </div>
           </div>
+{/* ======================================================= */}
           <div className="experience__frontend">
-          
+            <h3>Frontend</h3>
+            <div className="experience__content">
+            <article className='experience__details'>
+                <DiJavascript1 class="experience__details-icon"/>
+                <div class="experience__title"><h4>JavaScript</h4></div>
+                <small className='text-light'>Experienced</small>
+              </article>
+              <article className='experience__details'>
+                <GrReactjs class="experience__details-icon"/>
+                <div class="experience__title"><h4>React.JS</h4></div>
+                <small className='text-light'>Experienced</small>
+              </article>
+              <article className='experience__details'>
+                <TbBrandNextjs class="experience__details-icon"/>
+                <div class="experience__title"><h4>Next.JS</h4></div>
+                <small className='text-light'>Experienced</small>
+              </article>
+              <article className='experience__details'>
+                <SiTailwindcss class="experience__details-icon"/>
+                <div class="experience__title"><h4>Tailwind</h4></div>
+                <small className='text-light'>Experienced</small>
+              </article>
+            </div>
           </div>
-          <div className="experience__c">
-          
-          </div>
-          <div className="experience__cpp">
-          
-          </div>
-              </div>
+{/* ======================================================= */}
+      </div>
     </section>
   )
 }
