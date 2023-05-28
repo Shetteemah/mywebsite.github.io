@@ -62,8 +62,9 @@ h3, h4, h5 {
 }
 
 h1 {
-	font-size: 80px;
+	font-size: 200px;
 	line-height: 100px;
+	margin: 3rem 3rem 3rem 8rem;
 	vertical-align: baseline;
 	letter-spacing: normal;
 	word-spacing: 0px;
@@ -137,7 +138,8 @@ img {
 	}
 
 	h1 {
-		font-size: 100px;
+		font-size: 140px;
+		margin-left: 6rem;
 		line-height: 100px;
 		vertical-align: baseline;
 		letter-spacing: normal;
@@ -157,7 +159,8 @@ img {
 	}
 
 	h1 {
-		font-size: 60px;
+		font-size: 80px;
+		margin-left: 0.3rem;
 		line-height: 100px;
 		vertical-align: baseline;
 		letter-spacing: normal;

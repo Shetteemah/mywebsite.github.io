@@ -3,6 +3,7 @@ import './header.css';
 import CTA from './CTA'
 import HeaderSocials from './HeaderSocials';
 import LOGO from '../../img/shettima logo 150px.png'
+import {TfiAngleRight} from 'react-icons/tfi'
 
 
 const header = () => {
@@ -18,7 +19,7 @@ const header = () => {
         <CTA />
         <HeaderSocials />
 
-      <a href="#contact" className="scroll__down">Scroll Down</a>
+      <a href="#testimonials" className="scroll__down"><TfiAngleRight/><TfiAngleRight/><TfiAngleRight/><TfiAngleRight/><TfiAngleRight/><TfiAngleRight/></a>
       </div>
     </header>
   )

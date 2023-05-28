@@ -43,7 +43,7 @@ const testimonials = () => {
   return (
     <section id='testimonials'>
       <h5>Words from happy colleagues and users.</h5>
-      <h2>Testimonials</h2>
+      <h2>Feedback</h2>
 
       <Swiper className="container testimonials__container"
       // modules={[Navigation, Pagination, Scrollbar, A11y]}

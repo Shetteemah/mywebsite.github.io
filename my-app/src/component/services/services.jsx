@@ -12,7 +12,7 @@ const services = () => {
     <section id='services'>
       <h5>I currently don't offer any service. However, i am open to collaboration and opportunities!</h5>
       <h2>Services</h2>
-      <div className="container services__container">
+      {/* <div className="container services__container">
       <article className='service'>
           <div className="service__head">
             <h3>UX/UI Design</h3>
@@ -40,7 +40,6 @@ const services = () => {
             </li>
           </ul>
         </article>
-        {/* ======================================================= */}
         <article className='service'>
           <div className="service__head">
             <h3>Web Development</h3>
@@ -68,7 +67,6 @@ const services = () => {
             </li>
           </ul>
         </article>
-        {/* ======================================================= */}
         <article className='service'>
           <div className="service__head">
             <h3>Content Creation</h3>
@@ -96,8 +94,7 @@ const services = () => {
             </li>
           </ul>
         </article>
-        {/* ======================================================= */}
-      </div>
+      </div> */}
     </section>
   )
 }

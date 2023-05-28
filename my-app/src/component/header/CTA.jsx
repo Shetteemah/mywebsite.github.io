@@ -4,8 +4,8 @@ import './header.css';
 const CTA = () => {
   return (
 	<div className="cta">
-		<a href="https://github.com/shetteemah" className='btn'>GitHub</a>
-		<a href="#contact" className='btn btn-primary'>Get in touch</a>
+		<a href="https://github.com/shetteemah" className='btn' target='_blank'>GitHub</a>
+		<a href="https://linktr.ee/shettima" className='btn btn-primary' target='_blank'>Get in touch</a>
 	</div>
   )
 }

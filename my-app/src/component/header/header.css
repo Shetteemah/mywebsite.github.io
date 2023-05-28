@@ -1,5 +1,5 @@
 header {
-	height: 150vh;
+	height: 80vh;
 	padding-top: 7rem;
 	overflow: hidden;
 }
@@ -46,7 +46,7 @@ header {
 	left: 0rem;
 	top: 0rem;
 	margin-left: 0%;
-	margin-top: 0%;
+	margin-top: 5%;
 	margin-bottom: 0%;
 	margin-right: 0%;
 	/* background-color: grey; */
@@ -70,6 +70,14 @@ header {
 	padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
+h1 {
+	font-size: 10%;
+	line-height: 10px;
+	vertical-align: baseline;
+	letter-spacing: normal;
+	word-spacing: 0px;
+}
+
 /* ===================== SCROLL DOWN ===================== */
 
 .scroll__down {
@@ -85,16 +93,17 @@ header {
 /* ===================== MEDIA QUERIES (MEDIUM) TABLET SCREENS ===================== */
 @media screen and (max-width: 1024px) {
 	header {
-		height: 150vh;
+		height: 80vh;
 	}
 
 	.logo {
 		/* position: static; */
-		margin-top: 0rem;
+		margin-top: 3rem;
 		margin-left: 0%;
 		/* height: 50%; */
 		position: absolute;
 		width: 15%;
+		margin-left: -2rem;
 	}
 
 }
@@ -102,7 +111,7 @@ header {
 /* ===================== MEDIA QUERIES (SMALL) MOBILE SCREENS ===================== */
 @media screen and (max-width: 600px) {
 	header {
-		height: 150vh;
+		height: 100vh;
 	}
 
 	.scroll__down, .header__socials {
